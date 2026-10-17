@@ -1,0 +1,12 @@
+{
+  "event": {
+    "name": "Campus Technical Workshop",
+    "date": "2026-11-12",
+    "registrations": 240,
+    "expected_attendance_rate": 0.75
+  },
+  "venue": {
+    "name": "Auditorium A",
+    "approved_capacity": 200
+  }
+}

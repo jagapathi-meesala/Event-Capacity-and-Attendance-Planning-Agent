@@ -1,0 +1,5 @@
+name: estimate-attendance
+description: Calculate a transparent expected attendance estimate from organizer-supplied registration and attendance-rate assumptions.
+inputs: [event, venue]
+outputs: [attendance_estimate, capacity_status, warnings]
+side_effects: none

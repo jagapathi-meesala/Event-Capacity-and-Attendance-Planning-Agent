@@ -1,0 +1,5 @@
+name: generate-capacity-report
+description: Produce a JSON planning report with assumptions, capacity comparison, warnings, and human-review requirements.
+inputs: [analysis_result]
+outputs: [report_json]
+side_effects: none

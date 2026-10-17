@@ -1,0 +1,5 @@
+name: validate-event-plan
+description: Validate supplied event registration assumptions and venue approved capacity.
+inputs: [payload]
+outputs: [validation_issues]
+side_effects: none

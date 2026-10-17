@@ -1,0 +1,18 @@
+spec_version: "0.1.0"
+name: event-capacity-attendance-planning-agent
+version: "1.0.0"
+description: Estimates event attendance, checks venue capacity, and produces transparent planning guidance for human review.
+author: jagapathi-meesala
+license: MIT
+runtime:
+  max_turns: 8
+  temperature: 0.2
+  timeout: 60
+skills:
+  - capacity-planning
+  - attendance-forecasting
+  - event-safety-review
+tools:
+  - validate-event-plan
+  - estimate-attendance
+  - generate-capacity-report

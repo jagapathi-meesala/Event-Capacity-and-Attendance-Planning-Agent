@@ -1,0 +1,29 @@
+{
+  "status": "within_capacity",
+  "event": {
+    "name": "Campus Technical Workshop",
+    "registrations": 240
+  },
+  "venue": {
+    "name": "Auditorium A",
+    "approved_capacity": 200
+  },
+  "attendance_estimate": 180,
+  "expected_attendance_rate": 0.75,
+  "calculation": "round(240 registrations × 0.75 attendance rate) = 180",
+  "capacity_difference": -20,
+  "estimated_capacity_utilization": 0.9,
+  "assumptions": [
+    "The attendance rate is supplied by the organizer and is not independently verified.",
+    "The estimate is a planning estimate, not a guaranteed headcount.",
+    "Approved capacity is taken from supplied input and must be verified with the venue."
+  ],
+  "warnings": [
+    "Estimate is below the supplied capacity, but this is not a safety or legal compliance determination.",
+    "Confirm emergency exits, accessibility, staffing, and applicable venue rules with responsible personnel."
+  ],
+  "human_review_required": true,
+  "validation_issues": [],
+  "report_type": "event_capacity_attendance_plan",
+  "agent": "event-capacity-attendance-planning-agent"
+}
